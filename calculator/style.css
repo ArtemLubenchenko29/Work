@@ -1,0 +1,10 @@
+#maincalc{
+    border: 5px double black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 201, 6);
+}
+
+body{
+    background-color: coral;
+}
