@@ -1,0 +1,19 @@
+.good {
+    background-color: #1cb829;
+}
+
+.bad {
+    background-color: #d31f1f;
+}
+
+.ts {
+    background-color: #f3ef00;
+}
+
+body{
+    background-color: coral;
+}
+
+.students {
+    border: 5px double black;
+}

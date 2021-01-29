@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="3.js" async></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="all">
+    <form action="" method="POST" onsubmit="return false;">
+        <input type="text" name="first_name" value="" placeholder="Имя" />
+        <br />
+        <input type="text" name="estimate" value="" placeholder="Оценка" />
+        <br />
+        <input type="text" name="course" value="" placeholder="Курс" />
+        <br />
+        <input type="checkbox" id="is_active" name="is_active" checked />
+        <label for="is_active">Активный</label>
+        <br />
+        <input type="submit" id="add" name="add" value="Добавить" />
+      </form>
+    <table class="students">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Estimate</th>
+                <th>Course</th>
+                <th>Active</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div>Общее количество неактивных студентов: <span id = "notActive"></span></div>
+  <div>Количество неактивных студентов в разрезе курсов: <span id = "notActiveCourse"></span></div>
+  <div>Средняя оценка активных студентов в разрезе курсов: <span id = "avarageEst"></span></div>
+</div>
+</body>
+</html>
